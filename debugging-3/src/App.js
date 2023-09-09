@@ -5,7 +5,7 @@ function EmailInput() {
     const [email, setEmail] = useState(null);
 
     function valid(val) {
-        return val && val.indexOf('@') !== '-1'
+        return val && val.indexOf('@') !== -1;
     }
 
     return <div>
